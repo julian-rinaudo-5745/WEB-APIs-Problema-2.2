@@ -8,9 +8,9 @@ namespace WEB_APIs_Problema_2._2.Models
 {
     public class Coin
     {
-        [StringLength(10, MinimumLength = 3)]
-        [Required]
+        // [StringLength(10, MinimumLength = 3)]
+        // [Required]
         public string Name { get; set; }
-        public int Value { get; set; }
+        public double Value { get; set; }
     }
 }
